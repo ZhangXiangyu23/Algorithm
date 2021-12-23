@@ -3,7 +3,7 @@
 
 
 
-//�ǵݼ����� 
+//非递减排序 
 void InsertionSort1(int a[],int n)
 {
 	for(int j=1;j<n;j++)
@@ -20,7 +20,7 @@ void InsertionSort1(int a[],int n)
 }
 
 
-//�ǵ�������
+//非递增排序
 void InsertionSort2(int a[],int n)
 {
 	for(int j=1;j<n;j++)
@@ -39,7 +39,7 @@ void InsertionSort2(int a[],int n)
 
 
 
-//չʾ 
+//展示 
 void Show(int a[],int n)
 {
 	for(int i=0;i<n;i++)
@@ -56,13 +56,13 @@ void Show(int a[],int n)
 int main()
 {
 	int a[6]={5,2,4,6,1,3};
-	printf("����֮ǰ:\n");
+	printf("排序之前:\n");
 	Show(a,6);
 	InsertionSort1(a,6);
-	printf("�ǵݼ�����֮��:\n");
+	printf("非递减排序之后:\n");
 	InsertionSort1(a,6);
 	Show(a,6);
-	printf("�ǵ�������֮��:\n");
+	printf("非递增排序之后:\n");
 	InsertionSort2(a,6);
 	Show(a,6); 
 	return 0;	
