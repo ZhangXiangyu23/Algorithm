@@ -31,7 +31,6 @@ int* twoSum(int* numbers, int numbersSize, int target, int* returnSize)
 	result[0]=-1;
 	result[1]=-1;
 	return result;
-	
 }
 
 
